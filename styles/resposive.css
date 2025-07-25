@@ -1,0 +1,119 @@
+@media (max-width: 576px) {
+  .nav_links_section{
+    display: none !important;
+
+  }
+  nav{
+    padding: 10px 20px !important;
+  }
+  .nav_card_section i {
+   
+   font-size: 30px ;
+}
+.nav_card_section p{
+    font-size: 20px;
+}
+.hero_section{
+    flex-direction: column-reverse;
+}
+.hero_right{
+    width: 100% !important;
+}
+.hero_left h1{
+    font-size: 40px !important;
+    margin-top: 20px;
+
+}
+.hero_left P{
+    font-size: 20px !important;
+  
+}
+.hero_left{
+    padding-left: 20px;
+    width: 100% !important;
+}
+.flower_shop_sections{
+    margin-top: 50px;
+}
+.flower_shop_sections p{
+    font-size: 24px !important;
+    
+}
+.flower_product_page{
+    margin-top: 20px;
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+}
+.main_button{
+    font-size: 18px !important;
+}
+.plant_lover_section{
+    flex-direction: column;
+}
+.plant_lover_section_left{
+    width: 95% !important;
+}
+.plant_lover_section_left .badge{
+    display: none;
+}
+.plant_lover_section_right{
+    width: 95% !important;
+}
+.plant_lover_section_right h2{
+    font-size: 35px !important;
+}
+.latest_deals p{
+    font-size: 24px !important;
+
+}
+.deal_img_warper{
+    flex-direction: column;
+}
+
+.latest_deals_two_img{
+    width: 95% !important;
+}
+.latest_deals_one_img{
+    width: 95% !important;
+}
+.latest_deals_one_img img{
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+.join{
+    height: 40% !important;
+}
+.join form input{
+    width: 80%  !important;
+}
+footer{
+    flex-direction: column;
+}
+.footer_left{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap: 10px;
+}
+.footer_left P{
+    text-align: center;
+}
+.footer_2nd_left{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_2nd_right{
+        margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_right{
+    margin-top: 15px;
+}
+}

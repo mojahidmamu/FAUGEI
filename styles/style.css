@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+width: 100%;
+    background-color: #f5f8ff;
+
+height: 100%;
+}
+/* reusable styles */
+.primary_color{
+    color: #e95a08;
+}
+.main_button{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e95a08;
+    color: #fff;
+}
+.secondary_color{
+    color: #8987a1;
+}
+h1,h2,h3{
+font-family: "Noto Serif", serif;;
+}
+p{
+    font-family: "Inter", sans-serif;
+}
+a{
+        font-family: "Inter", sans-serif;
+
+}
+/* header style  */
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.full_site_warper_include_email_section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    font-family: poppins;
+    display: flex;
+    padding: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left{
+    width: 20%;
+}
+.nav_left img{
+    object-fit: cover;
+    width: 100px;
+}
+.nav_right{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: end;
+}
+.nav_right>.nav_links_section a{
+    text-decoration: none;
+    font-weight: 500;
+    
+    color: #8987a1;
+    
+}
+.nav_right>.nav_links_section{
+    display: flex;
+    gap: 30px;
+}
+.nav_card_section {
+   color: #000;
+  display: flex;
+  align-items: center;
+   font-size: 18px;
+}
+.hero_section{
+    display: flex;
+    position: relative;
+    padding: 70px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_left h1{
+    font-size: 65px;
+    line-height: 130%;
+    font-weight: 600;
+}
+.hero_left P{
+    font-size: 18px;
+  
+}
+.hero_left{
+    width: 50%;
+}
+.hero_right{
+    width: 50%;
+}
+.hero_right img{
+    width: 100%;
+    object-fit: cover;
+}
+.flower_shop_sections{
+    padding: 50px 0;
+}
+.flower_shop_sections h2{
+    text-align: center;
+    font-size: 50px;
+}
+.flower_shop_sections p{
+    font-size: 18px;
+    text-align: center;
+}
+.flower_cart{
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    background-color: #fff;
+    transition: all ease .3s;
+    
+   
+
+}
+.flower_cart:hover{
+    transform: translateY(-5px);
+         box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+
+}
+.flower_cart img{
+    border-radius: 5px;
+    width: 100%;
+     aspect-ratio: 3 / 4;
+    object-position: center;
+    object-fit:cover ;
+}
+.flower_product_page{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.flower_cart p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* plant_lover_section style  */
+.plant_lover_section{
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.plant_lover_section_left{
+    position: relative;
+    width: 50%;
+}
+.plant_lover_section_left .flower-store  {
+    width: 100%;
+    height: 500px;
+}
+.plant_lover_section_left .badge{
+    position: absolute;
+    width: 200px;
+    top: -12%;
+    left: 100%;
+    transform: translateX(-65%);
+
+    object-fit: cover;
+}
+.ana_box{
+    position: relative;
+}
+.latest_deals_one_img{
+    position: relative;
+}
+.bloom_box{
+    position: relative;
+}
+.plant_lover_section_right{
+    width: 50%;
+}
+.plant_lover_section_right h2{
+    font-size: 50px;
+}
+.plant_lover_section_right li{
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+
+}
+.latest_deals h2{
+    font-size: 50px;
+    text-align: center;
+}
+.latest_deals p{
+    text-align: center;
+    font-size: 20px;
+}
+.deal_img_warper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+.for_all_flower_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_box{
+    position: absolute;
+}
+.latest_deals_two_img{
+    width: 40%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.latest_deals_two_img img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 50%;
+}
+.latest_deals_one_img {
+    width: 70%;
+    
+   
+}
+.latest_deals_one_img img{
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.overlay{
+    border-radius: 10px;
+    width: 100%;
+    position: absolute;
+    height: 100%;background-color: #00000046;
+}
+.text_box{
+    color: #f5f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+.text_box a{
+    color: #f5f8ff;
+    font-weight: 600;
+}
+ 
+
+/* join style  */
+.join{
+    width: 100%;
+    height: 60%;
+    margin-top: 100px;
+
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    color: #f5f8ff;
+}
+form{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.join form input{
+        width: 550px;
+        font-family: "Inter", sans-serif;
+        border: none;
+        padding: 14px 18px;
+}
+
+
+/* footer style  */
+footer{
+    display: flex;
+    padding: 70px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_2nd_left{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.footer_2nd_left a{
+    
+    text-decoration: none;
+    color: #8987a1;
+}
+.footer_2nd_right{
+    display: flex;
+        gap: 10px;
+
+    flex-direction: column;
+}
+.footer_2nd_right a{
+       text-decoration: none;
+    color: #8987a1; 
+}
+.icon_box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
