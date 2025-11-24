@@ -64,7 +64,7 @@ A fully responsive flower shop landing page built using **HTML5** and **Tailwind
 ## ⚙️ Technology Stack
 
 - ✅ HTML5
-- ✅  Tailwind CSS  
+- ✅ Tailwind CSS  
 - ❌ No JavaScript libraries, DaisyUI,
 
 ---
