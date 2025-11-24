@@ -1,6 +1,6 @@
 # 🌸 Flower Shop Website
 
-A fully responsive flower shop landing page built using **HTML5** and **Vanilla CSS**. This project was created as part of an assignment and follows all requirements provided via Figma design.
+A fully responsive flower shop landing page built using **HTML5** and **Tailwind CSS**. This project was created as part of an assignment and follows all requirements provided via Figma design.
 
 ---
 
@@ -61,44 +61,17 @@ A fully responsive flower shop landing page built using **HTML5** and **Vanilla 
 
 ---
 
-## 🧪 Challenge Section (10 Marks)
-
-### 🆕 Latest Deal Section
-- Title and subtitle
-- Product card layout similar to Figma
-- **Responsive:** One card per row on mobile
-
----
-
-### ✅ Trusted Plant Lover Badge
-- Positioned badge on the **plant lover image**
-- Hidden on mobile screens for better design
-
----
-
-## 🕛 Optional Section (0 Marks - Bonus)
-
-### 🔄 Animation
-- Trusted Badge spins **infinitely** using CSS animation
-
-### ⚠️ Add to Cart Alert
-- Clicking "Add to Cart" shows an alert:  
-  👉 **"Flower Added to Cart"**
-
----
-
 ## ⚙️ Technology Stack
 
 - ✅ HTML5
-- ✅ CSS3 (Vanilla CSS Only)
-- ❌ No frameworks (No Tailwind, Bootstrap, DaisyUI, etc.)
-- ❌ No JavaScript libraries
+- ✅  Tailwind CSS  
+- ❌ No JavaScript libraries, DaisyUI,
 
 ---
 
 
 
-**Pritom Dey**  
+**Abdullah all Mojahid**  
 🎓 CST Student — Bangladesh Sweden Polytechnic Institute
 
 ---
